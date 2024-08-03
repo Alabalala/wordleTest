@@ -30,7 +30,8 @@ main {
 .columns {
     display: flex;
     flex-direction: column;
-    
+    width: 100%;
+    align-items: center;
 }
 
 .row-parent {
@@ -59,8 +60,8 @@ justify-content: center;
 }
 
 .row input {
-width: 80px;
-height: 80px;
+width: 20%;
+height: 20%;
 border-radius: 10px;
 box-shadow: inset 0 0 10px #9dfa95;
 font-size: 70px;
